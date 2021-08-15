@@ -1,6 +1,7 @@
 {
   "name": "fiveam",
   "version": "1.0.0",
+  "theme_support_email": "ole@five-am.com",
   "description": "[![Build status](https://github.com/shopify/dawn/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Shopify/dawn/actions/workflows/ci.yml?query=branch%3Amain) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?color=informational)](/CONTRIBUTING.md)",
   "main": "index.js",
   "scripts": {
@@ -19,7 +20,12 @@
   "homepage": "https://github.com/ole-besendahl/fiveam-theme#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
     "gulp-sass": "^5.0.0",
     "sass": "^1.37.5"
+  },
+  "dependencies": {
+    "shopify-cli": "^1.0.11"
   }
 }

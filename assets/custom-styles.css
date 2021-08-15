@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/********** Base ************/
+/********** Sections ************/
+body {
+  background-color: red;
+}
+
+div {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.grid  {
+  display: grid;
+  grid-template-columns: repeat(1fr, 12);
+}
